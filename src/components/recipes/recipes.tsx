@@ -1,5 +1,6 @@
 import { useEffect } from 'react'
 import { getRecipes } from '../../api'
+import Loader from '../loader'
 
 interface Props {
     
@@ -14,7 +15,7 @@ const Recipes: React.FC = ({}) => {
 
     return (
         <div>
-            
+            <Loader />
         </div>
     )
 }
