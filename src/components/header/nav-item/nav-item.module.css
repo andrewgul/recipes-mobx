@@ -1,0 +1,9 @@
+.nav-item {
+    font-size: 18px;
+    color: #F2F2F2;
+    margin-right: 10px;
+}
+
+.nav-item:last-child {
+    margin-right: 0;
+}

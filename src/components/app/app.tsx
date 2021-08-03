@@ -1,9 +1,11 @@
 import React from 'react';
+import styles from './app.module.css'
+import Header from '../header'
 
-function App() {
+const App: React.FC = () => {
   return (
     <div>
-      <p>let's start!</p>
+      <Header />
     </div>
   );
 }
